@@ -1,27 +1,27 @@
-# <img src="https://img.shields.io/badge/FACE-GUARD-00e5ff?style=for-the-badge&labelColor=030508&color=00e5ff" alt="FaceGuard" />
+# <img src="https://img.shields.io/badge/FACE-GUARD-00e5ff?style=for-the-badge\&labelColor=030508\&color=00e5ff" alt="FaceGuard" />
 
 <div align="center">
 
-**Real-Time Deepfake Detection & Identity Forensics System**
+**Real-Time Deepfake Detection \& Identity Forensics System**
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-faceguard--ui.vercel.app-00e5ff?style=flat-square&logo=vercel&logoColor=white&labelColor=030508)](https://faceguard-ui.vercel.app)
-[![Backend](https://img.shields.io/badge/API-Render-46e3b7?style=flat-square&logo=render&logoColor=white&labelColor=030508)](https://faceguard-digital-forensic-system.onrender.com)
-[![React](https://img.shields.io/badge/React-18-61dafb?style=flat-square&logo=react&logoColor=61dafb&labelColor=030508)](https://react.dev)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.110-009688?style=flat-square&logo=fastapi&logoColor=white&labelColor=030508)](https://fastapi.tiangolo.com)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-ff6f00?style=flat-square&logo=tensorflow&logoColor=white&labelColor=030508)](https://tensorflow.org)
-[![License](https://img.shields.io/badge/License-MIT-a855f7?style=flat-square&labelColor=030508)](LICENSE)
-
-<br />
-
-> *Detect manipulation at the pixel level — image, video, and live camera.*
+[!\[Live Demo](https://img.shields.io/badge/Live%20Demo-faceguard--ui.vercel.app-00e5ff?style=flat-square\&logo=vercel\&logoColor=white\&labelColor=030508)](https://faceguard-ui.vercel.app)
+[!\[Backend](https://img.shields.io/badge/API-Render-46e3b7?style=flat-square\&logo=render\&logoColor=white\&labelColor=030508)](https://faceguard-digital-forensic-system.onrender.com)
+[!\[React](https://img.shields.io/badge/React-18-61dafb?style=flat-square\&logo=react\&logoColor=61dafb\&labelColor=030508)](https://react.dev)
+[!\[FastAPI](https://img.shields.io/badge/FastAPI-0.110-009688?style=flat-square\&logo=fastapi\&logoColor=white\&labelColor=030508)](https://fastapi.tiangolo.com)
+[!\[TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-ff6f00?style=flat-square\&logo=tensorflow\&logoColor=white\&labelColor=030508)](https://tensorflow.org)
+[!\[License](https://img.shields.io/badge/License-MIT-a855f7?style=flat-square\&labelColor=030508)](LICENSE)
 
 <br />
 
-![FaceGuard Banner](https://raw.githubusercontent.com/hiba-castellan/FaceGuard-Digital-Forensic-System/main/docs/banner.png)
+> \*Detect manipulation at the pixel level — image, video, and live camera.\*
+
+<br />
+
+!\[FaceGuard Banner](docs/banner.png)
 
 </div>
 
----
+\---
 
 ## ✦ Overview
 
@@ -29,51 +29,54 @@ FaceGuard is a full-stack deepfake detection system that leverages a fine-tuned 
 
 Built as a mini project at **IES College of Engineering, Thrissur** · Department of CSE (Data Science).
 
----
+\---
 
 ## ✦ Live Demo
 
-🌐 **[https://faceguard-ui.vercel.app](https://faceguard-ui.vercel.app)**
+🌐 [**https://faceguard-ui.vercel.app**](https://faceguard-ui.vercel.app)
 
-> ⚠️ The backend runs on Render's free tier — first request may take **~50 seconds** to wake up.
+> ⚠️ The backend runs on Render's free tier — first request may take \*\*\~50 seconds\*\* to wake up.
 
----
+\---
 
 ## ✦ Features
 
-| Feature | Description |
-|---|---|
-| 🖼️ **Image Analysis** | Upload any JPG/PNG/WEBP — get instant deepfake probability with animated biometric HUD overlay |
-| 🎬 **Video Forensics** | Frame-by-frame SSE streaming analysis with temporal risk timeline chart |
-| 📷 **Live Surveillance** | Real-time webcam deepfake detection via WebSocket at ~5fps with live risk gauge |
-| 🎨 **Glassmorphism UI** | WebGL Aurora background, frosted glass panels, cinematic mode transitions |
-| 📱 **Mobile Responsive** | Full mobile support with bottom navigation and adaptive layouts |
+|Feature|Description|
+|-|-|
+|🖼️ **Image Analysis**|Upload any JPG/PNG/WEBP — get instant deepfake probability with animated biometric HUD overlay|
+|🎬 **Video Forensics**|Frame-by-frame SSE streaming analysis with temporal risk timeline chart|
+|📷 **Live Surveillance**|Real-time webcam deepfake detection via WebSocket at \~5fps with live risk gauge|
+|🎨 **Glassmorphism UI**|WebGL Aurora background, frosted glass panels, cinematic mode transitions|
+|📱 **Mobile Responsive**|Full mobile support with bottom navigation and adaptive layouts|
 
----
+\---
 
 ## ✦ Tech Stack
 
 ### Frontend
-- **React 18** — component architecture
-- **OGL** — WebGL Aurora background shader
-- **Recharts** — temporal risk timeline visualization
-- **Canvas API** — real-time biometric HUD rendering
-- **CSS Glassmorphism** — `backdrop-filter`, frosted glass panels
+
+* **React 18** — component architecture
+* **OGL** — WebGL Aurora background shader
+* **Recharts** — temporal risk timeline visualization
+* **Canvas API** — real-time biometric HUD rendering
+* **CSS Glassmorphism** — `backdrop-filter`, frosted glass panels
 
 ### Backend
-- **FastAPI** — async REST API + WebSocket server
-- **TensorFlow / Keras** — model inference
-- **OpenCV** — frame extraction and preprocessing
-- **Docker** — containerized deployment on Render
+
+* **FastAPI** — async REST API + WebSocket server
+* **TensorFlow / Keras** — model inference
+* **OpenCV** — frame extraction and preprocessing
+* **Docker** — containerized deployment on Render
 
 ### ML Model
-- **Architecture**: MobileNetV2 (fine-tuned)
-- **Dataset**: FaceForensics++ (FF++)
-- **Accuracy**: 92.8%
-- **Inference Speed**: 0.04s / frame
-- **Input**: 224×224 RGB face crop
 
----
+* **Architecture**: MobileNetV2 (fine-tuned)
+* **Dataset**: FaceForensics++ (FF++)
+* **Accuracy**: 92.8%
+* **Inference Speed**: 0.04s / frame
+* **Input**: 224×224 RGB face crop
+
+\---
 
 ## ✦ Architecture
 
@@ -99,83 +102,92 @@ Built as a mini project at **IES College of Engineering, Thrissur** · Departmen
 └─────────────────────────────────────────────────────┘
 ```
 
----
+\---
 
 ## ✦ Getting Started
 
 ### Prerequisites
-- Node.js 18+
-- Python 3.10+
-- Docker (optional, for backend)
 
-### 1. Clone the repository
+* Node.js 18+
+* Python 3.10+
+* Docker (optional, for backend)
+
+### 1\. Clone the repository
+
 ```bash
 git clone https://github.com/hiba-castellan/FaceGuard-Digital-Forensic-System.git
 cd FaceGuard-Digital-Forensic-System
 ```
 
-### 2. Backend setup
+### 2\. Backend setup
+
 ```bash
 cd backend
 pip install -r requirements.txt
 ```
 
 Set environment variable:
+
 ```bash
 # Windows
-set MODEL_PATH=../models/faceguard_phase2_finetuned.h5
+set MODEL\_PATH=../models/faceguard\_phase2\_finetuned.h5
 
 # macOS/Linux
-export MODEL_PATH=../models/faceguard_phase2_finetuned.h5
+export MODEL\_PATH=../models/faceguard\_phase2\_finetuned.h5
 ```
 
 Run the server:
+
 ```bash
 uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-### 3. Frontend setup
+### 3\. Frontend setup
+
 ```bash
 cd frontend
 npm install
 ```
 
 Create `.env.local`:
+
 ```env
-REACT_APP_API_URL=http://localhost:8000
+REACT\_APP\_API\_URL=http://localhost:8000
 ```
 
 Run the dev server:
+
 ```bash
 npm start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) 🚀
 
-### 4. Docker (backend only)
+### 4\. Docker (backend only)
+
 ```bash
 cd backend
 docker build -t faceguard-backend .
 docker run -p 8000:8000 faceguard-backend
 ```
 
----
+\---
 
 ## ✦ API Reference
 
-| Endpoint | Method | Description |
-|---|---|---|
-| `/health` | GET | Model status check |
-| `/analyze/image` | POST | Analyze image for deepfakes |
-| `/upload/video` | POST | Upload video for processing |
-| `/analyze/video/stream` | GET | SSE stream of frame results |
-| `/ws/webcam` | WebSocket | Real-time webcam inference |
+|Endpoint|Method|Description|
+|-|-|-|
+|`/health`|GET|Model status check|
+|`/analyze/image`|POST|Analyze image for deepfakes|
+|`/upload/video`|POST|Upload video for processing|
+|`/analyze/video/stream`|GET|SSE stream of frame results|
+|`/ws/webcam`|WebSocket|Real-time webcam inference|
 
----
+\---
 
 ## ✦ Model Details
 
-The model is a **MobileNetV2** pretrained on ImageNet and fine-tuned on FaceForensics++ — a benchmark dataset containing ~1000 original videos manipulated using four methods: Deepfakes, Face2Face, FaceSwap, and NeuralTextures.
+The model is a **MobileNetV2** pretrained on ImageNet and fine-tuned on FaceForensics++ — a benchmark dataset containing \~1000 original videos manipulated using four methods: Deepfakes, Face2Face, FaceSwap, and NeuralTextures.
 
 ```
 Input  →  224×224 RGB
@@ -189,16 +201,17 @@ Input  →  224×224 RGB
            ↓
       Dense(1, sigmoid)
            ↓
-Output →  P(fake) ∈ [0, 1]
+Output →  P(fake) ∈ \[0, 1]
 ```
 
 **Training details:**
-- Optimizer: Adam (lr=1e-4)
-- Loss: Binary Crossentropy
-- Epochs: 20 (early stopping)
-- Test Accuracy: **92.8%**
 
----
+* Optimizer: Adam (lr=1e-4)
+* Loss: Binary Crossentropy
+* Epochs: 20 (early stopping)
+* Test Accuracy: **92.8%**
+
+\---
 
 ## ✦ Project Structure
 
@@ -210,7 +223,7 @@ FaceGuard-Digital-Forensic-System/
 │   ├── requirements.txt
 │   ├── Dockerfile
 │   └── models/
-│       └── faceguard_phase2_finetuned.h5
+│       └── faceguard\_phase2\_finetuned.h5
 ├── frontend/
 │   ├── src/
 │   │   ├── App.jsx          # Root — landing ↔ app transitions
@@ -226,41 +239,42 @@ FaceGuard-Digital-Forensic-System/
 │   │       └── LogoLoop.jsx       # Scrolling social links
 │   └── package.json
 ├── models/                  # Model weights
-├── train_model.py           # Training script
-├── fine_tune.py             # Fine-tuning script
+├── train\_model.py           # Training script
+├── fine\_tune.py             # Fine-tuning script
 └── README.md
 ```
 
----
+\---
 
 ## ✦ Deployment
 
-| Service | Platform | URL |
-|---|---|---|
-| Frontend | Vercel (auto-deploy) | [faceguard-ui.vercel.app](https://faceguard-ui.vercel.app) |
-| Backend | Render (Docker, Free tier) | [faceguard-digital-forensic-system.onrender.com](https://faceguard-digital-forensic-system.onrender.com) |
+|Service|Platform|URL|
+|-|-|-|
+|Frontend|Vercel (auto-deploy)|[faceguard-ui.vercel.app](https://faceguard-ui.vercel.app)|
+|Backend|Render (Docker, Free tier)|[faceguard-digital-forensic-system.onrender.com](https://faceguard-digital-forensic-system.onrender.com)|
 
 Push to `main` → Vercel auto-deploys frontend. Render auto-deploys backend on code changes.
 
----
+\---
 
 ## ✦ Author
 
 **Hiba V S**
 IES23CD008 · CSE Data Science · IES College of Engineering, Thrissur
 
-[![GitHub](https://img.shields.io/badge/GitHub-hiba--castellan-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/hiba-castellan)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/)
-[![Instagram](https://img.shields.io/badge/Instagram-Follow-e1306c?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/)
+[!\[GitHub](https://img.shields.io/badge/GitHub-hiba--castellan-181717?style=flat-square\&logo=github\&logoColor=white)](https://github.com/hiba-castellan)
+[!\[LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=flat-square\&logo=linkedin\&logoColor=white)](https://linkedin.com/)
+[!\[Instagram](https://img.shields.io/badge/Instagram-Follow-e1306c?style=flat-square\&logo=instagram\&logoColor=white)](https://instagram.com/)
 
----
+\---
 
 ## ✦ License
 
 This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
 
----
+\---
 
 <div align="center">
 <sub>Built with React · FastAPI · TensorFlow · OGL · Deployed on Vercel + Render</sub>
 </div>
+
