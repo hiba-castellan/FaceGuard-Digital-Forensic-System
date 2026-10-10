@@ -187,7 +187,7 @@ Output →  P(fake) ∈ [0, 1]
 - Optimizer: Adam (lr=1e-4)
 - Loss: Binary Crossentropy
 - Epochs: 20 (early stopping)
-- Test Accuracy: **92.8%**
+- Test Accuracy: **83.6%**
 
 ---
 
